@@ -32,7 +32,7 @@ RUN npm run build
 ##########################
 # Build production image.#
 ##########################
-FROM alpine:3.9
+FROM alpine:3.24.3
 
 # Install python and pip.
 RUN apk add --no-cache python3 && \
